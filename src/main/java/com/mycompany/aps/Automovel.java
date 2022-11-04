@@ -15,6 +15,10 @@ public abstract class Automovel extends Veiculo {
         System.out.println("[+] " + this.nome.toUpperCase() + " PARADO !");
     }
     protected void Estacionar(){
+        if(this.velocidade == 0) {
+            System.out.println("[-] O " + this.nome + " ESTÁ PARADO, É NECESSÁRIO ESTAR EM MOVIMENTO ...");
+            return;
+        }
         System.out.println("[-] ESTACIONANDO...");
         this.Frear();
         System.out.println("[+] ESTACIONADO");

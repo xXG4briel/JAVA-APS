@@ -8,20 +8,18 @@ public class APS {
         List<Carro> carros = new ArrayList<>();
         List<Moto> motos = new ArrayList<>();
         
-        
         // Crinado os objetos carro
         Carro ModelS = new Carro("Model S", "Tesla", "Vermelho");
         Carro Astra = new Carro("Astra", "Chevrolet", "Prata");
-
+      
         // Crinado os objetos moto
-        Moto Fazer = new Moto("Fazer", "Yamaha", "Azul");
+        Moto Fazer = new Moto("Fazer", "Yamaha", "Azul");       
         Moto Titan = new Moto("Titan", "Honda", "Cinza");
         
         // Adicionando os objetos nas coletions
         carros.add(ModelS);
         carros.add(Astra);
 
-        
         motos.add(Fazer);
         motos.add(Titan);    
         
